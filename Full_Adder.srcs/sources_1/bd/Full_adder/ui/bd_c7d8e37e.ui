@@ -1,0 +1,39 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.794874",
+   "Default View_TopLeft":"-259,123",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0
+#  -string -flagsOSRD
+preplace port port-id_A -pg 1 -lvl 0 -x -80 -y 220 -defaultsOSRD
+preplace port port-id_A1 -pg 1 -lvl 0 -x -80 -y 90 -defaultsOSRD
+preplace port port-id_B1 -pg 1 -lvl 0 -x -80 -y 120 -defaultsOSRD
+preplace port port-id_A2 -pg 1 -lvl 0 -x -80 -y -110 -defaultsOSRD
+preplace port port-id_A3 -pg 1 -lvl 0 -x -80 -y -80 -defaultsOSRD
+preplace port port-id_B2 -pg 1 -lvl 0 -x -80 -y -20 -defaultsOSRD
+preplace inst and_g_0 -pg 1 -lvl 1 -x 70 -y 450 -defaultsOSRD
+preplace inst and_g_1 -pg 1 -lvl 1 -x 70 -y 330 -defaultsOSRD
+preplace inst and_g_2 -pg 1 -lvl 1 -x 70 -y 210 -defaultsOSRD
+preplace inst or_g_0 -pg 1 -lvl 2 -x 280 -y 410 -defaultsOSRD
+preplace inst Xor_g_1 -pg 1 -lvl 3 -x 1180 -y 280 -defaultsOSRD
+preplace inst and_g_3 -pg 1 -lvl 3 -x 1180 -y 530 -defaultsOSRD
+preplace inst and_g_4 -pg 1 -lvl 3 -x 1180 -y 10 -defaultsOSRD
+preplace inst and_g_5 -pg 1 -lvl 3 -x 1180 -y 410 -defaultsOSRD
+preplace inst or_g_1 -pg 1 -lvl 3 -x 1180 -y 140 -defaultsOSRD
+preplace netloc A1_1 1 0 1 -10 90n
+preplace netloc A1_2 1 0 3 N -80 N -80 1060
+preplace netloc B1_1 1 0 1 -30 120n
+preplace netloc B1_2 1 0 3 N -20 N -20 1050
+preplace netloc Net 1 0 1 -20 200n
+preplace netloc Net1 1 0 3 N -110 N -110 1070
+preplace netloc and_g_0_i_g 1 1 1 160 430n
+preplace netloc and_g_0_i_g1 1 2 2 1090 -70 1280
+preplace netloc and_g_1_i_g 1 1 1 150 330n
+preplace netloc and_g_1_i_g1 1 2 2 1100 -60 1260
+preplace netloc and_g_2_i_g 1 1 1 160 210n
+preplace netloc and_g_2_i_g1 1 2 2 1080 -80 1270
+levelinfo -pg 1 -80 70 280 1180 1310
+pagesize -pg 1 -db -bbox -sgen -150 -150 1310 1020
+"
+}
+0

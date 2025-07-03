@@ -1,0 +1,366 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x71F9B8A471F9B8A4",
+      "device": "xc7a35tcpg236-1",
+      "gen_directory": "../../../../Full_Adder.gen/sources_1/bd/Full_adder",
+      "name": "Full_adder",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2023.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "and_g_0": "",
+      "Xor_g_0": "",
+      "and_g_1": "",
+      "and_g_2": "",
+      "or_g_0": "",
+      "Xor_g_1": "",
+      "and_g_3": "",
+      "and_g_4": "",
+      "and_g_5": "",
+      "or_g_1": ""
+    },
+    "ports": {
+      "A": {
+        "direction": "I"
+      },
+      "A1": {
+        "direction": "I"
+      },
+      "B1": {
+        "direction": "I"
+      },
+      "A2": {
+        "direction": "I"
+      },
+      "A3": {
+        "direction": "I"
+      },
+      "B2": {
+        "direction": "I"
+      }
+    },
+    "components": {
+      "and_g_0": {
+        "vlnv": "xilinx.com:module_ref:and_g:1.0",
+        "xci_name": "Full_adder_and_g_0_0",
+        "xci_path": "ip\\Full_adder_and_g_0_0\\Full_adder_and_g_0_0.xci",
+        "inst_hier_path": "and_g_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "and_g",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "i_d": {
+            "direction": "I"
+          },
+          "i_f": {
+            "direction": "I"
+          },
+          "i_g": {
+            "direction": "O"
+          }
+        }
+      },
+      "Xor_g_0": {
+        "vlnv": "xilinx.com:module_ref:Xor_g:1.0",
+        "xci_name": "Full_adder_Xor_g_0_1",
+        "xci_path": "ip\\Full_adder_Xor_g_0_1\\Full_adder_Xor_g_0_1.xci",
+        "inst_hier_path": "Xor_g_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "Xor_g",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "i_a": {
+            "direction": "I"
+          },
+          "i_b": {
+            "direction": "I"
+          },
+          "i_k": {
+            "direction": "I"
+          },
+          "o_c": {
+            "direction": "O"
+          }
+        }
+      },
+      "and_g_1": {
+        "vlnv": "xilinx.com:module_ref:and_g:1.0",
+        "xci_name": "Full_adder_and_g_0_1",
+        "xci_path": "ip\\Full_adder_and_g_0_1\\Full_adder_and_g_0_1.xci",
+        "inst_hier_path": "and_g_1",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "and_g",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "i_d": {
+            "direction": "I"
+          },
+          "i_f": {
+            "direction": "I"
+          },
+          "i_g": {
+            "direction": "O"
+          }
+        }
+      },
+      "and_g_2": {
+        "vlnv": "xilinx.com:module_ref:and_g:1.0",
+        "xci_name": "Full_adder_and_g_0_2",
+        "xci_path": "ip\\Full_adder_and_g_0_2\\Full_adder_and_g_0_2.xci",
+        "inst_hier_path": "and_g_2",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "and_g",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "i_d": {
+            "direction": "I"
+          },
+          "i_f": {
+            "direction": "I"
+          },
+          "i_g": {
+            "direction": "O"
+          }
+        }
+      },
+      "or_g_0": {
+        "vlnv": "xilinx.com:module_ref:or_g:1.0",
+        "xci_name": "Full_adder_or_g_0_0",
+        "xci_path": "ip\\Full_adder_or_g_0_0\\Full_adder_or_g_0_0.xci",
+        "inst_hier_path": "or_g_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "or_g",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "i_a": {
+            "direction": "I"
+          },
+          "i_b": {
+            "direction": "I"
+          },
+          "i_c": {
+            "direction": "I"
+          },
+          "o_c": {
+            "direction": "O"
+          }
+        }
+      },
+      "Xor_g_1": {
+        "vlnv": "xilinx.com:module_ref:Xor_g:1.0",
+        "xci_name": "Full_adder_Xor_g_0_2",
+        "xci_path": "ip\\Full_adder_Xor_g_0_2\\Full_adder_Xor_g_0_2.xci",
+        "inst_hier_path": "Xor_g_1",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "Xor_g",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "i_a": {
+            "direction": "I"
+          },
+          "i_b": {
+            "direction": "I"
+          },
+          "i_k": {
+            "direction": "I"
+          },
+          "o_c": {
+            "direction": "O"
+          }
+        }
+      },
+      "and_g_3": {
+        "vlnv": "xilinx.com:module_ref:and_g:1.0",
+        "xci_name": "Full_adder_and_g_0_3",
+        "xci_path": "ip\\Full_adder_and_g_0_3\\Full_adder_and_g_0_3.xci",
+        "inst_hier_path": "and_g_3",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "and_g",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "i_d": {
+            "direction": "I"
+          },
+          "i_f": {
+            "direction": "I"
+          },
+          "i_g": {
+            "direction": "O"
+          }
+        }
+      },
+      "and_g_4": {
+        "vlnv": "xilinx.com:module_ref:and_g:1.0",
+        "xci_name": "Full_adder_and_g_1_0",
+        "xci_path": "ip\\Full_adder_and_g_1_0\\Full_adder_and_g_1_0.xci",
+        "inst_hier_path": "and_g_4",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "and_g",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "i_d": {
+            "direction": "I"
+          },
+          "i_f": {
+            "direction": "I"
+          },
+          "i_g": {
+            "direction": "O"
+          }
+        }
+      },
+      "and_g_5": {
+        "vlnv": "xilinx.com:module_ref:and_g:1.0",
+        "xci_name": "Full_adder_and_g_2_0",
+        "xci_path": "ip\\Full_adder_and_g_2_0\\Full_adder_and_g_2_0.xci",
+        "inst_hier_path": "and_g_5",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "and_g",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "i_d": {
+            "direction": "I"
+          },
+          "i_f": {
+            "direction": "I"
+          },
+          "i_g": {
+            "direction": "O"
+          }
+        }
+      },
+      "or_g_1": {
+        "vlnv": "xilinx.com:module_ref:or_g:1.0",
+        "xci_name": "Full_adder_or_g_0_1",
+        "xci_path": "ip\\Full_adder_or_g_0_1\\Full_adder_or_g_0_1.xci",
+        "inst_hier_path": "or_g_1",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "or_g",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "i_a": {
+            "direction": "I"
+          },
+          "i_b": {
+            "direction": "I"
+          },
+          "i_c": {
+            "direction": "I"
+          },
+          "o_c": {
+            "direction": "O"
+          }
+        }
+      }
+    },
+    "nets": {
+      "A1_1": {
+        "ports": [
+          "A1",
+          "Xor_g_0/i_b",
+          "and_g_2/i_f",
+          "and_g_0/i_d"
+        ]
+      },
+      "A1_2": {
+        "ports": [
+          "A3",
+          "Xor_g_1/i_b",
+          "and_g_5/i_f",
+          "and_g_3/i_d"
+        ]
+      },
+      "B1_1": {
+        "ports": [
+          "B1",
+          "Xor_g_0/i_k",
+          "and_g_1/i_f",
+          "and_g_0/i_f"
+        ]
+      },
+      "B1_2": {
+        "ports": [
+          "B2",
+          "Xor_g_1/i_k",
+          "and_g_4/i_f",
+          "and_g_3/i_f"
+        ]
+      },
+      "Net": {
+        "ports": [
+          "A",
+          "and_g_1/i_d",
+          "and_g_2/i_d",
+          "Xor_g_0/i_a"
+        ]
+      },
+      "Net1": {
+        "ports": [
+          "A2",
+          "and_g_4/i_d",
+          "and_g_5/i_d",
+          "Xor_g_1/i_a"
+        ]
+      },
+      "and_g_0_i_g": {
+        "ports": [
+          "and_g_0/i_g",
+          "or_g_0/i_c"
+        ]
+      },
+      "and_g_0_i_g1": {
+        "ports": [
+          "and_g_3/i_g",
+          "or_g_1/i_c"
+        ]
+      },
+      "and_g_1_i_g": {
+        "ports": [
+          "and_g_1/i_g",
+          "or_g_0/i_b"
+        ]
+      },
+      "and_g_1_i_g1": {
+        "ports": [
+          "and_g_4/i_g",
+          "or_g_1/i_b"
+        ]
+      },
+      "and_g_2_i_g": {
+        "ports": [
+          "and_g_2/i_g",
+          "or_g_0/i_a"
+        ]
+      },
+      "and_g_2_i_g1": {
+        "ports": [
+          "and_g_5/i_g",
+          "or_g_1/i_a"
+        ]
+      }
+    }
+  }
+}
