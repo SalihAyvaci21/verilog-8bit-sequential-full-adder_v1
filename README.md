@@ -142,7 +142,7 @@ To add two 8-bit numbers (A and B) along with an input carry (Cin), producing:
 
 Initial values in the code:
 
-```verilog
+verilog
 A = 8'b0000_0101;  // 5
 B = 8'b1111_0011;  // 243
 
