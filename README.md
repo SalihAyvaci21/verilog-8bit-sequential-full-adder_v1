@@ -56,7 +56,7 @@ Verilen iki 8-bit sayıyı (A ve B) bir taşıma (Cin) ile toplayarak:
 
 Kod içinde başlangıç değerleri:
 
-```verilog
+verilog
 A = 8'b0000_0101;  // 5
 B = 8'b1111_0011;  // 243
 
@@ -67,7 +67,7 @@ B = 8'b1111_0011;  // 243
 Kod, test bench’e ihtiyaç duymadan kendi içinde test çalıştırır.  
 İsterseniz aşağıdaki gibi bir simülasyon çıktısı eklerseniz sonucu görebilirsiniz:
 
-```verilog
+verilog
 if (i == 8) begin
   $display("A     = %b", A);
   $display("B     = %b", B);
